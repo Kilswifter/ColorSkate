@@ -2,7 +2,9 @@ from ota_updater import OTAUpdater
 
 def download_and_install_update_if_available():
     o = OTAUpdater('https://github.com/Kilswifter/ColorSkate')
-    o.download_and_install_update_if_available('Avenue Belle Vue', 'Westfield19')
+    o.using_network('Avenue Belle Vue', 'Westfield19')
+    o.check_for_update_to_install_during_next_reboot()
+    #o.download_and_install_update_if_available('Avenue Belle Vue', 'Westfield19')
 
 
 def start():
