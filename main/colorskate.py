@@ -8,7 +8,7 @@ def web_page():
     html = """
     <html>
   <head>
-    <title>ESP Web Serverrrr</title>
+    <title>ESP Web Server</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="data:,">
     <style>html{font-family: Helvetica; display:inline-block; margin: 0px auto; text-align: center;}
@@ -18,7 +18,7 @@ def web_page():
       </style>
   </head>
   <body>
-    <h1 style="height: 49px;"><span style="color: #333399;">ColorSkate</span></h1>
+    <h1 style="height: 49px;"><span style="color: #333399;">ColorSkate yeah</span></h1>
     <p style="margin-top: -40px; height: 22px;"><span style="color: #333399;">controller
         webpage</span></p>
     <p>GPIO state: <strong>""" + gpio_state + """</strong></p>
