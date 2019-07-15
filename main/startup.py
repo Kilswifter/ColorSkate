@@ -26,6 +26,8 @@ ap.config(essid="ColorSkate", password="12345678")
 ap.active(True)
 print('IP addres | netmask | gateway | DNS')
 print(ap.ifconfig())
+print('test123456789')
+
 
 # ws2812b
 import machine, neopixel
