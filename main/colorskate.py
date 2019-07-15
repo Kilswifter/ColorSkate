@@ -22,7 +22,7 @@ def web_page():
     <p style="margin-top: -40px; height: 22px;"><span style="color: #333399;">controller
         webpage</span></p>
     <p>GPIO state: <strong>""" + gpio_state + """</strong></p>
-    <p><a href="/?state=rainbow"><button class="button">rainbow</button></a></p>
+    <p><a href="/?state=rainbow"><button class="button">rainbow or not</button></a></p>
     <p><a href="/?state=off"><button class="button button2">OFF</button></a></p>
   </body>
     </html>

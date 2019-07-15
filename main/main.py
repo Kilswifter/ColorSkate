@@ -15,7 +15,9 @@ from ota_update.main.ota_updater import OTAUpdater
 
 
  def boot():
+     print('device booted')
      download_and_install_update_if_available()
+     import startup.py
      start()
 
 
