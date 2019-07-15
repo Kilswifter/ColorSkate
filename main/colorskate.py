@@ -8,7 +8,7 @@ def web_page():
     html = """
     <html>
   <head>
-    <title>ESP Web Server</title>
+    <title>ESP Web Serverrrr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="data:,">
     <style>html{font-family: Helvetica; display:inline-block; margin: 0px auto; text-align: center;}
