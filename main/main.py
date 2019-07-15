@@ -10,6 +10,7 @@ from ota_update.main.ota_updater import OTAUpdater
      # from main.x import YourProject
      # project = YourProject()
      # ...
+     print('test123456789')
      import colorskate.py
 
 
